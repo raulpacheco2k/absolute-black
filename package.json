@@ -1,0 +1,36 @@
+{
+  "name": "absolute-black",
+  "displayName": "Absolute Black",
+  "publisher": "raulpacheco2k",
+  "version": "0.0.1",
+  "description": "Minimalist theme with an absolute black background.",
+  "author": "raulpacheco2k",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raulpacheco2k/absolute-black"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "categories": ["Themes"],
+  "devDependencies": {
+    "vsce": "^2.14.1"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Absolute Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/absolute-black-color-theme.json"
+      }
+    ]
+  },
+"keywords": [
+    "theme",
+    "dark"
+  ]
+}
